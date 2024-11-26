@@ -2,13 +2,13 @@ public class GrupoMusical {
     //grupo que deseamos ver
     private String grupoMusical;
     //año en el que el grupo se fundó
-    private int añoFundación;
+    private int anoFundacion;
     //para poder ver si el grupo está separado
     private boolean grupoSeparado;
     
-    public GrupoMusical(String grupoMusica, int añoF){
+    public GrupoMusical(String grupoMusica, int anoF){
         grupoMusical = grupoMusica;
-        añoFundación = añoF;
+        anoFundacion = anoF;
         grupoSeparado = true;
     }
     
@@ -16,8 +16,8 @@ public class GrupoMusical {
         return grupoMusical;
     }
         
-    public int getAñoFundación(){
-        return añoFundación;
+    public int getAnoFundacion(){
+        return anoFundacion;
     }
     
     public boolean getGrupoSeparado(){
@@ -28,20 +28,19 @@ public class GrupoMusical {
         grupoMusical = grupoM;
     }
     
-    public void setAñoFundación(int añosActivos){
-        añoFundación = 2024 - añosActivos;
+    public void setAnoFundación(int anosActivos){
+        anoFundacion = 2024 - anosActivos;
     }
     
     public void setGrupoSepara(){
         grupoSeparado = !grupoSeparado;
     }
-
-
-
-
-
-
-
-
-
-}
+    
+    public void imprimirDetalles(){
+        System.out.println("Grupo musical: " + grupoMusical + " | Ano en el que se fundo: " + anoFundacion + " | Grupo separada: " + grupoSeparado);
+    }
+    
+    public String getEstado(){
+        return "Grupo musical: " + grupoMusical + " | Ano en el que se fundo: " + anoFundacion + " | Grupo separada: " + grupoSeparado;
+    }
+    }

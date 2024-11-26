@@ -1,17 +1,21 @@
 #BlueJ class context
 comment0.target=GrupoMusical
-comment1.params=grupoMusica\ a\u00F1oF
+comment1.params=grupoMusica\ anoF
 comment1.target=GrupoMusical(java.lang.String,\ int)
 comment2.params=
 comment2.target=java.lang.String\ getGrupoMusical()
 comment3.params=
-comment3.target=int\ getA\u00F1oFundaci\u00F3n()
+comment3.target=int\ getAnoFundacion()
 comment4.params=
 comment4.target=boolean\ getGrupoSeparado()
 comment5.params=grupoM
 comment5.target=void\ setGrupoMusical(java.lang.String)
-comment6.params=a\u00F1osActivos
-comment6.target=void\ setA\u00F1oFundaci\u00F3n(int)
+comment6.params=anosActivos
+comment6.target=void\ setAnoFundaci\u00F3n(int)
 comment7.params=
 comment7.target=void\ setGrupoSepara()
-numComments=8
+comment8.params=
+comment8.target=void\ imprimirDetalles()
+comment9.params=
+comment9.target=java.lang.String\ getEstado()
+numComments=10
