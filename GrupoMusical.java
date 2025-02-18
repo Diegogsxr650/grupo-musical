@@ -37,10 +37,10 @@ public class GrupoMusical {
     }
     
     public void imprimirDetalles(){
-        System.out.println("Grupo musical: " + grupoMusical + " | Ano en el que se fundo: " + anoFundacion + " | Grupo separada: " + grupoSeparado);
+        System.out.println("Grupo musical: " + grupoMusical + " | Ano en el que se fundo: " + anoFundacion + " | Grupo separada: " + (grupoSeparado ? "Si" : "No"));
     }
     
     public String getEstado(){
-        return "Grupo musical: " + grupoMusical + " | Ano en el que se fundo: " + anoFundacion + " | Grupo separada: " + grupoSeparado;
+        return "Grupo musical: " + grupoMusical + " | Ano en el que se fundo: " + anoFundacion + " | Grupo separada: " + (grupoSeparado ? "Si" : "No");
     }
     }
